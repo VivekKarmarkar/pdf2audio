@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets / local
+.env
+.env.local
+.DS_Store
+*.log
+
+# Generated artifacts (regeneratable from sources via audify.py)
+*.mp3
+pdf2audio_session.txt
+claude_code_future_project_ideas.txt
